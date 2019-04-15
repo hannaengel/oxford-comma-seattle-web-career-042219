@@ -3,7 +3,7 @@ def oxford_comma(array)
     array.join(' and ')
   elsif
     array.length == 1
-    array.to_s
+    array.join
   else
     arrayString = array
     last = array.last
