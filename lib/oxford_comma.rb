@@ -3,10 +3,10 @@ def oxford_comma(array)
     array.join('and')
     end
   else
-  arrayString = array
-  last = array.last
-  last.to_s
-  array.pop
-  string = array.join(', ')
-  "#{string}, and #{last}"
+    arrayString = array
+    last = array.last
+    last.to_s
+    array.pop
+    string = array.join(', ')
+    "#{string}, and #{last}"
 end
